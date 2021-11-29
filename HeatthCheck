@@ -1,4 +1,4 @@
-**Why to use Health check**
+###**Why to use Health check**
 App Service Health Check feature will help you to improve the availability of your Azure App Service. 
 Pre-requisites:
 Your App Service plan should be scaled to two or more instances to fully utilize Health check. 
