@@ -63,3 +63,9 @@ Policy is defined using JSON format. The policy definition contains elements for
 
   Reference for Azure policy sample: https://docs.microsoft.com/en-us/azure/governance/policy/samples/
   
+  #### Azure policy rule effects
+  - Audit: To audit and log compliance.
+  - Deny  : Block resource operation that dont meet policy definition.
+  - Append  : Specify a predefined value for a property that is not present in the resource payload
+  - AuditIfNotExists  : Determine compliance based on the existance of another resource.
+  - DeployIfNotExist  : Determine compliance based on the existance of another resource and create that resource.
