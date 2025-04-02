@@ -5,6 +5,15 @@ Azure policy is one of Azure ecosystem service can be used for below reasons for
 - Meet Standards and SLA.
 - Reference: https://docs.microsoft.com/en-us/azure/governance/policy/overview
 
+##### Azure policy JSON uses below elements
+- displayName
+- description
+- mode
+- metadata
+- version
+- parameters
+- policyRule
+
 ### Policy Scope
 As policy uconfigured to azure environment, it supports azure environment scopes viz: 
 - Individual Resource
